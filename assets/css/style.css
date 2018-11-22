@@ -40,10 +40,54 @@ body {
     text-align: left;
 }
 
+#messageform {
+    font-size: 10pt;
+    height: 180px;
+    width: 940px;
+    padding: 10px;
+    text-align: left;
+    border-color: #cccccc;
+}
+
+#nameform {
+    font-size: 10pt;
+    width: 940px;
+    padding: 10px;
+}
+
 #page-name {
     font-family: "Mass Effect 123";
     font-size: 20pt;
 }
+
+.repoGrid {
+    padding: 8px;
+    padding-left: 0px; 
+    padding-right: 40px;
+    padding-bottom: 50px; 
+    position: relative;
+}
+
+.repoThumbnail {
+    height: 240px;
+    width: 300px;
+    z-index: -1;
+}
+
+ .repoTitle {
+    background-color: black;
+    color: limegreen;
+    font-size: 18pt;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    position: absolute;
+        bottom: 0pt; 
+    text-align: center;
+    width: 300px;
+} 
 
 .section-title {
     font-family: "Mass Effect 123";
@@ -52,28 +96,7 @@ body {
     padding-bottom: 15px;
 }
 
-#submit-button {
-    background-color: goldenrod;
-    color: #472F00;
-    font-family: Futura, Arial, Helvetica, sans-serif;   
-}
-
 #tagline {
     font-family: Futura, Arial, Helvetica, sans-serif;
     letter-spacing: 2.4px;
-}
-
-#train-form {
-    background-color: #212529;
-    border-color: darkred;
-    border-style: groove;
-    border-width: 4px;
-    padding: 5px; 
-    margin-bottom: 5%;
-}
-
-#train-schedule { /* id on the entire table element */
-    border-color: darkred;
-    border-style: groove;
-    border-width: 4px;
 }
