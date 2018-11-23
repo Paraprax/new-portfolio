@@ -17,6 +17,14 @@ button {
     padding-left: 0;
 }
 
+#emailform {
+    font-size: 10pt;
+    width: 1082px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
 .form-group {
     color: white;
 }
@@ -29,7 +37,7 @@ label {
 #messageform {
     font-size: 10pt;
     height: 180px;
-    width: 940px;
+    width: 1082px;
     padding: 10px;
     text-align: left;
     border-color: #cccccc;
@@ -37,8 +45,9 @@ label {
 
 #nameform {
     font-size: 10pt;
-    width: 940px;
+    width: 1082px;
     padding: 10px;
+    margin-bottom: 12px;
 }
 
 .page-header {
@@ -79,6 +88,7 @@ label {
  .repoTitle {
     background-color: black;
     color: limegreen;
+    font-family: futura;
     font-size: 18pt;
     margin-top: 0px;
     padding-top: 5px;
