@@ -9,6 +9,10 @@ body {
     background-position: top;
 }
 
+button {
+    color: black;
+}
+
 .col-md-6 {
     padding-left: 0;
 }
@@ -17,11 +21,24 @@ body {
     color: white;
 }
 
-.section-title {
+label {
     color: white;
-    font-family: Decotech TL, Futura, Arial, Helvetica, sans-serif;
-    font-size: 35pt;
-    letter-spacing: 2.4px;
+    font-family: futura;
+}
+
+#messageform {
+    font-size: 10pt;
+    height: 180px;
+    width: 940px;
+    padding: 10px;
+    text-align: left;
+    border-color: #cccccc;
+}
+
+#nameform {
+    font-size: 10pt;
+    width: 940px;
+    padding: 10px;
 }
 
 .page-header {
@@ -38,21 +55,6 @@ body {
     padding: 5px;
     padding-left: 10%;
     text-align: left;
-}
-
-#messageform {
-    font-size: 10pt;
-    height: 180px;
-    width: 940px;
-    padding: 10px;
-    text-align: left;
-    border-color: #cccccc;
-}
-
-#nameform {
-    font-size: 10pt;
-    width: 940px;
-    padding: 10px;
 }
 
 #page-name {
@@ -90,10 +92,13 @@ body {
 } 
 
 .section-title {
+    color: white;
     font-family: "Mass Effect 123";
     font-size: 16pt;
+    letter-spacing: 2.4px;
     padding-top: 10px;
     padding-bottom: 15px;
+    
 }
 
 #tagline {
