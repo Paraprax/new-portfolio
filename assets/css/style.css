@@ -80,6 +80,7 @@ label {
 }
 
 .repoThumbnail {
+    margin-top: 12px;
     height: 240px;
     width: 300px;
     z-index: -1;
