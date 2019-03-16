@@ -1,3 +1,8 @@
+@font-face {
+    font-family: mass-effect-font;
+    src: url('../.fonts/me123.ttf');
+  }
+
 #about-me-text {
     color: #AAAAAA;
     font-size: 16pt;
